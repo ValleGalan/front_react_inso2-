@@ -1,0 +1,62 @@
+/* Variables globales */
+$color-primary: #083675;
+$color-secundary: #f7f6f6; /* fondo gris */
+$color-texto-primary: #ffffff;/* color del texto */
+$color-icons: #f4f6f9;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-secundary: #{$color-secundary};
+  --color-texto-primary: #{$color-texto-primary};
+  --color-icons: #{$color-icons};
+}
+body{
+  background-color: var(--color-secundary);
+}
+.pointer {
+  cursor: pointer;
+}
+
+.texto-azul {  //texto de titulos
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.form-row { //dos columnas
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+//color de componente lateral
+.ui.vertical.menu {
+  background-color: $color-primary !important;
+}
+
+.loading-map {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 20px;
+  padding: 5px;
+  position: fixed;
+  top: 20px;
+  width: 250px;
+  z-index: 999;
+}
+
+.desborde-text {
+  white-space: nowrap;         /* Evita que el texto se divida en varias líneas */
+  overflow: hidden;            /* Oculta el contenido que se desborda del contenedor */
+  text-overflow: ellipsis;     /* Muestra tres puntos suspensivos (...) cuando el contenido se corta */
+}

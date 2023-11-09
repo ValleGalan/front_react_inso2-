@@ -1,0 +1,48 @@
+// Enums de Jerarquia
+export const Jerarquia = {
+    OFICIALES_SUPERIORES: "OFICIALES_SUPERIORES",
+    OFICIALES_JEFES: "OFICIALES_JEFES",
+    OFICIALES_SUBALTERNOS: "OFICIALES_SUBALTERNOS",
+    SUBOFICIALES_SUPERIORES: "SUBOFICIALES_SUPERIORES",
+    SUBOFICIALES_SUBALTERNOS: "SUBOFICIALES_SUBALTERNOS",
+};
+
+// Enums de Prioridad
+export const Prioridad = {
+    ALTA: "ALTA",
+    MEDIA: "MEDIA",
+    BAJA: "BAJA",
+};
+
+// Enums de Categoria
+export const Categoria = {
+    ALTA: "ALTA",
+    MEDIA: "MEDIA",
+    BAJA: "BAJA",
+};
+
+// Enums de Estado
+export const Estado = {
+    EN_CURSO: "EN_CURSO",
+    HECHO_ESCLARECIDO: "HECHO_ESCLARECIDO",
+};
+
+// Enums de TipoReporte
+export const TipoReporte = {
+    A1_PREADOLESCENTE_ACTO_SEXUAL: "A1_PREADOLESCENTE_ACTO_SEXUAL",
+    A2_PREADOLESCENTE_EXPOSICIÓN_LASCIVA: "A2_PREADOLESCENTE_EXPOSICIÓN_LASCIVA",
+    B1_ADOLESCENTE_ACTO_SEXUAL: "B1_ADOLESCENTE_ACTO_SEXUAL",
+    B2_ADOLESCENTE_EXPOSICIÓN_LASCIVA: "B2_ADOLESCENTE_EXPOSICIÓN_LASCIVA",
+};
+
+// Enums de Rol
+export const Rol = {
+    ADMINISTRADOR: "ADMINISTRADOR",
+    SECRETARIO: "SECRETARIO",
+};
+
+// Enums de Estado_Usuario
+export const Estado_Usuario = {
+    HABILITADO: "HABILITADO",
+    DESABILITADO: "DESABILITADO",
+};

@@ -1,0 +1,17 @@
+.basic-layout {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 55px 1fr;
+  grid-template-areas:
+    "menu"
+    "main-content";
+  min-height: 100vh;
+}
+
+.basic-layout__menu {
+  grid-area: menu;
+}
+
+.basic-layout__main-content {
+  grid-area: main-content;
+}

@@ -1,0 +1,14 @@
+.top-menu-admin {
+  &__logo {
+    width: 250px;
+    background-color:var(  --color-primary)!important; 
+  }
+
+  i.icon {
+    margin: 0 !important;
+  }
+}
+.top-menu-admin__logo img{
+  width: 100%;
+  height: 100%;
+}
